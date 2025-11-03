@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Core", "01_Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Infrastructure", "02_Infrastructure", "{F7571728-9320-460F-8DAB-7D94EA64FEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Application", "03_Application", "{D269619C-3245-439C-A299-10F5BED590ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Presentation", "04_Presentation", "{E3B084D5-5742-4192-A760-1F82EF4F554A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHome.Presentation.WebApi", "SmartHome.Presentation.WebApi\SmartHome.Presentation.WebApi.csproj", "{0503D68C-FABB-4AA8-9E22-B72E533D1A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0503D68C-FABB-4AA8-9E22-B72E533D1A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0503D68C-FABB-4AA8-9E22-B72E533D1A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0503D68C-FABB-4AA8-9E22-B72E533D1A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0503D68C-FABB-4AA8-9E22-B72E533D1A74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0503D68C-FABB-4AA8-9E22-B72E533D1A74} = {E3B084D5-5742-4192-A760-1F82EF4F554A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B8CF09D-10CC-470C-A199-A71EEA6F5F8C}
+	EndGlobalSection
+EndGlobal
